@@ -16,7 +16,7 @@ Given(/^I open URL and log in on the Securian Calculator Home Page$/, async () =
 
 When(/^I enter current age as "(.*)"$/, async (current_age) => {
 	allureReporter.startStep(`Entering Current Age: ${current_age}`);
-	await homePage.enterValue(homePage.currentAge, current_ag);
+	await homePage.enterValue(homePage.currentAge, current_age);
 	allureReporter.endStep();
 });
 

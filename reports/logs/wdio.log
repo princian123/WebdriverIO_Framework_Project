@@ -1,9 +1,19 @@
-2025-03-21T18:43:32.760Z INFO @wdio/cli:launcher: Run onPrepare hook
-2025-03-21T18:43:32.765Z INFO @wdio/utils: Setting up browser driver for: chrome@stable
-2025-03-21T18:43:32.766Z INFO @wdio/utils: Setting up browser binaries for: chrome@stable
-2025-03-21T18:43:32.776Z INFO webdriver: Using Chromedriver v134.0.6998.165 from cache directory C:\Users\ehtis\AppData\Local\Temp
-2025-03-21T18:43:32.781Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2025-03-21T18:43:32.782Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
-2025-03-21T18:44:44.865Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
-2025-03-21T18:44:44.897Z INFO @wdio/local-runner: Shutting down spawned worker
-2025-03-21T18:44:45.158Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2025-03-21T19:23:07.253Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-03-21T19:23:07.256Z INFO @wdio/utils: Setting up browser driver for: chrome@stable
+2025-03-21T19:23:07.258Z INFO @wdio/utils: Setting up browser binaries for: chrome@stable
+2025-03-21T19:23:07.273Z INFO webdriver: Using Chromedriver v134.0.6998.165 from cache directory C:\Users\ehtis\AppData\Local\Temp
+2025-03-21T19:23:07.283Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-03-21T19:23:07.284Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+2025-03-21T19:24:42.859Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-03-21T19:24:42.876Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-03-21T19:24:43.155Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2025-03-21T19:24:43.158Z INFO @wdio/local-runner: shutting down
+2025-03-21T19:24:43.159Z INFO @wdio/cli:launcher: Run onComplete hook
+2025-03-21T19:24:48.290Z ERROR @wdio/cli:utils: Error in onCompleteHook: Error: Could not generate Allure report
+    at Object.onComplete (C:\Users\ehtis\Desktop\Project\wdio.conf.js:327:29)
+    at file:///C:/Users/ehtis/Desktop/Project/node_modules/@wdio/cli/build/index.js:1176:13
+    at Array.map (<anonymous>)
+    at runOnCompleteHook (file:///C:/Users/ehtis/Desktop/Project/node_modules/@wdio/cli/build/index.js:1174:37)
+    at #runOnCompleteHook (file:///C:/Users/ehtis/Desktop/Project/node_modules/@wdio/cli/build/index.js:2274:37)
+    at Launcher.run (file:///C:/Users/ehtis/Desktop/Project/node_modules/@wdio/cli/build/index.js:2239:47)
+    at async Module.run (file:///C:/Users/ehtis/Desktop/Project/node_modules/@wdio/cli/build/index.js:3268:16)
