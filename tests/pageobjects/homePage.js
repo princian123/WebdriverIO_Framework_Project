@@ -3,11 +3,11 @@ const { $ } = require('@wdio/globals')
 
 
 class HomePage {
-    
+
     get currentAge() { return $("#current-age"); }
     get retireAge() { return $("#retirement-age"); }
     get currentAnnualIncome() { return $("input#current-income"); }
-    get spouseAnnualIncome() { return $("input#spouse-income"); } 
+    get spouseAnnualIncome() { return $("input#spouse-income"); }
     get currentRetirementSavingsBalance() { return $("#current-total-savings"); }
     get currentSaving() { return $("#current-annual-savings"); }
     get savingIncreaseRate() { return $("#savings-increase-rate"); }
@@ -31,10 +31,11 @@ class HomePage {
     }
 
     async fillRetirementForm(data) {
+        console.log("Filling form with data:", data);
         await this.enterValue(this.currentAge, data.current_age);
         await this.enterValue(this.retireAge, data.retirement_age);
         await this.enterValue(this.currentAnnualIncome, data.current_income);
-        await this.enterValue(this.spouseAnnualIncome, data.spouse_income); 
+        await this.enterValue(this.spouseAnnualIncome, data.spouse_income);
         await this.enterValue(this.currentRetirementSavingsBalance, data.savings_balance);
         await this.enterValue(this.currentSaving, data.yearly_savings);
         await this.enterValue(this.savingIncreaseRate, data.savings_increase_rate);
@@ -62,6 +63,7 @@ class HomePage {
             await this.enterValue(this.socialSecurityOverrideAmount, data.social_security_override);
         }
     }
+
 }
 
 module.exports = new HomePage();

@@ -15,7 +15,13 @@
     "@wdio/cli": "^9.12.1",
     "@wdio/cucumber-framework": "^9.12.1",
     "@wdio/local-runner": "^9.12.1",
+    "@wdio/logger": "^9.4.4",
     "@wdio/spec-reporter": "^9.11.0",
     "allure-commandline": "^2.33.0"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5"
   }
 }

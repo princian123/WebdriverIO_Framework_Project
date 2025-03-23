@@ -1,15 +1,16 @@
+const allure = require('@wdio/allure-reporter').default;
 exports.config = {
     //
 
     after: async function () {
-        await browser.pause(20000); // Pause indefinitely (or set a long time)
+        await browser.pause(10000); // Pause indefinitely (or set a long time)
     },
     // ====================
     // Runner Configuration
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    //
+    //AfterStep
     // ==================
     // Specify Test Files
     // ==================
@@ -55,6 +56,7 @@ exports.config = {
     //
     capabilities: [{
         browserName: 'chrome'
+        
     }],
 
     //
@@ -65,7 +67,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
-    outputDir: 'reports/logs',
+    //outputDir: 'reports/logs',
     //
     // Set specific log levels per logger
     // loggers:
@@ -217,7 +219,8 @@ exports.config = {
      * @param {object}         browser      instance of created browser/device session
      */
     // before: function (capabilities, specs) {
-    // },
+        
+     //},
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {string} commandName hook command name
@@ -264,8 +267,9 @@ exports.config = {
      */
      afterStep: async function (step, scenario, result, context) {
         if (error) {
-            await browser.takeScreenshot();
-          }
+            const screenshot = await browser.saveScreenshot(`./allure-results/error_${test.title}.png`);
+            await allureReporter.addAttachment(`Error Screenshot - ${test.title}`, screenshot, "image/png");
+        }
      },
     /**
      *
@@ -322,8 +326,14 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+     onComplete: function(exitCode, config, capabilities, results) {
+        const allure = require('allure-commandline');
+    const generation = allure(['generate', 'allure-results', '--clean']);
+    generation.on('exit', function (code) {
+      console.log(code === 0 ? 'Allure report successfully generated' : 'Error generating Allure report');
+    });
+  
+  },
     /**
     * Gets executed when a refresh happens.
     * @param {string} oldSessionId session ID of the old session

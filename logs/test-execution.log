@@ -1,0 +1,336 @@
+2025-03-23 14:52:04 [INFO]: Opening the application...
+2025-03-23 14:52:16 [INFO]: Application opened successfully
+2025-03-23 14:58:41 [INFO]: Opening the application...
+2025-03-23 14:58:48 [INFO]: Application opened successfully
+2025-03-23 14:58:48 [INFO]: Entering Current Age: 40
+2025-03-23 14:58:58 [INFO]: Entering Retirement Age: 68
+2025-03-23 14:58:59 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 14:58:59 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 14:59:00 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 14:59:01 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 14:59:02 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 14:59:02 [INFO]: Clicking on Calculate Button
+2025-03-23 14:59:03 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 14:59:07 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 14:59:07 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 14:59:10 [INFO]: Clicking Edit Info Button
+2025-03-23 15:13:51 [INFO]: Opening the application...
+2025-03-23 15:14:00 [INFO]: Application opened successfully
+2025-03-23 15:14:00 [INFO]: Entering Current Age: 40
+2025-03-23 15:14:10 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:14:11 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 15:14:12 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 15:14:12 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 15:14:13 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 15:14:13 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 15:14:14 [INFO]: Clicking on Calculate Button
+2025-03-23 15:14:14 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 15:14:18 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 15:14:18 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 15:14:21 [INFO]: Clicking Edit Info Button
+2025-03-23 15:18:13 [INFO]: Opening the application...
+2025-03-23 15:18:26 [INFO]: Application opened successfully
+2025-03-23 15:18:26 [INFO]: Entering Current Age: 40
+2025-03-23 15:18:36 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:18:37 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 15:18:40 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 15:18:41 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 15:18:42 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 15:18:43 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 15:18:44 [INFO]: Clicking on Calculate Button
+2025-03-23 15:18:44 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 15:18:47 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 15:18:48 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 15:18:50 [INFO]: Clicking Edit Info Button
+2025-03-23 15:21:55 [INFO]: Opening the application...
+2025-03-23 15:22:02 [INFO]: Application opened successfully
+2025-03-23 15:22:02 [INFO]: Entering Current Age: 40
+2025-03-23 15:22:11 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:22:13 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 15:22:14 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 15:22:15 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 15:22:16 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 15:22:18 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 15:22:19 [INFO]: Clicking on Calculate Button
+2025-03-23 15:22:20 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 15:22:23 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 15:22:23 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 15:22:26 [INFO]: Clicking Edit Info Button
+2025-03-23 15:24:18 [INFO]: Opening the application...
+2025-03-23 15:24:30 [INFO]: Application opened successfully
+2025-03-23 15:24:30 [INFO]: Entering Current Age: 40
+2025-03-23 15:24:38 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:24:42 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 15:24:43 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 15:24:43 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 15:24:44 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 15:24:45 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 15:24:45 [INFO]: Clicking on Calculate Button
+2025-03-23 15:24:46 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 15:24:49 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 15:24:49 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 15:24:52 [INFO]: Clicking Edit Info Button
+2025-03-23 15:26:52 [INFO]: Opening the application...
+2025-03-23 15:27:00 [INFO]: Application opened successfully
+2025-03-23 15:27:00 [INFO]: Entering Current Age: 40
+2025-03-23 15:27:06 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:27:07 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 15:27:08 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 15:27:09 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 15:27:09 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 15:27:10 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 15:27:10 [INFO]: Clicking on Calculate Button
+2025-03-23 15:27:11 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 15:27:14 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 15:27:15 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 15:27:17 [INFO]: Clicking Edit Info Button
+2025-03-23 15:56:02 [INFO]: Opening the application...
+2025-03-23 15:56:11 [INFO]: Application opened successfully
+2025-03-23 15:56:11 [INFO]: Entering Current Age: 40
+2025-03-23 15:56:14 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:59:22 [INFO]: Opening the application...
+2025-03-23 15:59:29 [INFO]: Application opened successfully
+2025-03-23 15:59:29 [INFO]: Entering Current Age: 40
+2025-03-23 15:59:34 [INFO]: Entering Retirement Age: 68
+2025-03-23 15:59:36 [INFO]: Entering Current Annual Income: 100000
+2025-03-23 15:59:37 [INFO]: Entering Spouse's Annual Income: 75000
+2025-03-23 15:59:39 [INFO]: Entering Current Retirement Savings Balance: 500000
+2025-03-23 15:59:39 [INFO]: Entering Yearly Savings: 10%
+2025-03-23 15:59:40 [INFO]: Entering Savings Increase Rate: .25%
+2025-03-23 15:59:41 [INFO]: Clicking on Calculate Button
+2025-03-23 15:59:41 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 15:59:44 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 15:59:44 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 15:59:47 [INFO]: Clicking Edit Info Button
+2025-03-23 16:45:07 [INFO]: Test Case #${index + 1} - Opening Application
+2025-03-23 16:45:15 [INFO]: Application opened successfully
+2025-03-23 16:45:15 [INFO]: Entering Current Age: <current_age>
+2025-03-23 16:45:17 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 16:45:20 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 16:45:21 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 16:45:21 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 16:45:21 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 16:45:22 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 16:45:23 [INFO]: Clicking on Calculate Button
+2025-03-23 16:45:23 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 16:47:19 [INFO]: Test Case #${index + 1} - Opening Application
+2025-03-23 16:47:27 [INFO]: Application opened successfully
+2025-03-23 16:47:27 [INFO]: Entering Current Age: <current_age>
+2025-03-23 16:47:30 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 16:47:33 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 16:47:34 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 16:47:34 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 16:47:35 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 16:47:35 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 16:47:36 [INFO]: Clicking on Calculate Button
+2025-03-23 16:47:37 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 16:50:37 [INFO]: Opening Application
+2025-03-23 16:50:45 [INFO]: Application opened successfully
+2025-03-23 16:50:46 [INFO]: Entering Current Age: <current_age>
+2025-03-23 16:50:50 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 16:50:51 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 16:50:51 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 16:50:52 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 16:50:53 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 16:50:54 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 16:50:54 [INFO]: Clicking on Calculate Button
+2025-03-23 16:50:56 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 16:52:29 [INFO]: Opening Application
+2025-03-23 16:52:38 [INFO]: Application opened successfully
+2025-03-23 16:52:38 [INFO]: Entering Current Age: <current_age>
+2025-03-23 16:52:42 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 16:52:44 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 16:52:45 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 16:52:46 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 16:52:49 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 16:52:50 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 16:52:51 [INFO]: Clicking on Calculate Button
+2025-03-23 16:52:52 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:21:54 [INFO]: Opening Application
+2025-03-23 18:22:03 [INFO]: Application opened successfully
+2025-03-23 18:22:03 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:22:10 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:22:12 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:22:12 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:22:13 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:22:13 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 18:22:14 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 18:22:14 [INFO]: Clicking on Calculate Button
+2025-03-23 18:22:15 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:25:53 [INFO]: Opening Application
+2025-03-23 18:26:01 [INFO]: Application opened successfully
+2025-03-23 18:26:01 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:26:11 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:26:13 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:26:14 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:26:15 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:26:16 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 18:26:17 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 18:26:18 [INFO]: Clicking on Calculate Button
+2025-03-23 18:26:20 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:31:40 [INFO]: Opening Application
+2025-03-23 18:31:50 [INFO]: Application opened successfully
+2025-03-23 18:31:50 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:31:59 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:32:01 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:32:01 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:32:02 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:32:03 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 18:32:04 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 18:32:04 [INFO]: Clicking on Calculate Button
+2025-03-23 18:32:05 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:34:40 [INFO]: Opening Application
+2025-03-23 18:34:48 [INFO]: Application opened successfully
+2025-03-23 18:34:48 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:35:00 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:35:03 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:35:05 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:35:05 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:37:36 [INFO]: Opening Application
+2025-03-23 18:37:45 [INFO]: Application opened successfully
+2025-03-23 18:37:45 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:37:54 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:37:55 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:37:56 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:37:57 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:43:06 [INFO]: Opening Application
+2025-03-23 18:43:13 [INFO]: Application opened successfully
+2025-03-23 18:43:13 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:45:52 [INFO]: Opening Application
+2025-03-23 18:46:01 [INFO]: Application opened successfully
+2025-03-23 18:46:01 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:46:10 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:49:23 [INFO]: Opening Application
+2025-03-23 18:49:35 [INFO]: Application opened successfully
+2025-03-23 18:49:35 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:49:43 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:52:51 [INFO]: Opening Application
+2025-03-23 18:53:03 [INFO]: Application opened successfully
+2025-03-23 18:53:03 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:53:16 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:53:17 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:53:19 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:53:20 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:53:21 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 18:53:22 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 18:53:24 [INFO]: Clicking on Calculate Button
+2025-03-23 18:53:24 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:55:18 [INFO]: Opening Application
+2025-03-23 18:55:27 [INFO]: Application opened successfully
+2025-03-23 18:55:27 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:55:52 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:55:54 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:55:54 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:55:55 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:55:56 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 18:55:57 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 18:55:58 [INFO]: Clicking on Calculate Button
+2025-03-23 18:55:59 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:56:02 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 18:56:03 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 18:56:06 [INFO]: Clicking Edit Info Button
+2025-03-23 18:58:23 [INFO]: Opening Application
+2025-03-23 18:58:32 [INFO]: Application opened successfully
+2025-03-23 18:58:32 [INFO]: Entering Current Age: <current_age>
+2025-03-23 18:58:51 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 18:58:52 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 18:58:53 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 18:58:54 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 18:58:55 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 18:58:56 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 18:58:56 [INFO]: Clicking on Calculate Button
+2025-03-23 18:58:56 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 18:59:01 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 18:59:01 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 18:59:04 [INFO]: Clicking Edit Info Button
+2025-03-23 19:01:08 [INFO]: Opening Application
+2025-03-23 19:01:19 [INFO]: Application opened successfully
+2025-03-23 19:01:19 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:01:27 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:01:29 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:01:29 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:01:30 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:01:32 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:01:33 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:01:33 [INFO]: Clicking on Calculate Button
+2025-03-23 19:01:34 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:01:37 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 19:01:37 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 19:01:39 [INFO]: Clicking Edit Info Button
+2025-03-23 19:17:48 [INFO]: Opening Application
+2025-03-23 19:17:56 [INFO]: Application opened successfully
+2025-03-23 19:17:56 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:18:03 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:18:09 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:18:10 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:18:10 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:18:11 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:18:11 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:18:12 [INFO]: Clicking on Calculate Button
+2025-03-23 19:18:13 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:18:17 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 19:18:17 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 19:18:19 [INFO]: Clicking Edit Info Button
+2025-03-23 19:23:43 [INFO]: Opening Application
+2025-03-23 19:23:51 [INFO]: Application opened successfully
+2025-03-23 19:23:51 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:23:55 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:23:57 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:23:57 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:23:58 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:23:59 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:23:59 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:24:00 [INFO]: Clicking on Calculate Button
+2025-03-23 19:24:01 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:24:49 [INFO]: Opening Application
+2025-03-23 19:24:58 [INFO]: Application opened successfully
+2025-03-23 19:24:59 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:25:10 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:25:12 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:25:12 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:25:13 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:25:13 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:25:14 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:25:15 [INFO]: Clicking on Calculate Button
+2025-03-23 19:25:15 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:25:18 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 19:29:52 [INFO]: Opening Application
+2025-03-23 19:30:11 [INFO]: Application opened successfully
+2025-03-23 19:30:11 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:30:14 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:30:18 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:30:19 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:30:19 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:30:21 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:30:21 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:30:23 [INFO]: Clicking on Calculate Button
+2025-03-23 19:30:25 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:30:28 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 19:30:28 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 19:30:32 [INFO]: Clicking Edit Info Button
+2025-03-23 19:34:00 [INFO]: Opening Application
+2025-03-23 19:34:11 [INFO]: Application opened successfully
+2025-03-23 19:34:11 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:34:26 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:34:30 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:34:31 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:34:33 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:34:34 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:34:35 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:34:37 [INFO]: Clicking on Calculate Button
+2025-03-23 19:34:37 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:34:41 [INFO]: Checking Minimum Retirement Amount
+2025-03-23 19:34:41 [INFO]: Verifying Amount Saved Till Now
+2025-03-23 19:34:44 [INFO]: Clicking Edit Info Button
+2025-03-23 19:35:34 [INFO]: Opening Application
+2025-03-23 19:35:47 [INFO]: Application opened successfully
+2025-03-23 19:35:48 [INFO]: Entering Current Age: <current_age>
+2025-03-23 19:36:14 [INFO]: Entering Retirement Age: <retirement_age>
+2025-03-23 19:36:19 [INFO]: Entering Current Annual Income: <current_income>
+2025-03-23 19:36:20 [INFO]: Entering Spouse's Annual Income: <spouse_income>
+2025-03-23 19:36:20 [INFO]: Entering Current Retirement Savings Balance: <savings_balance>
+2025-03-23 19:36:23 [INFO]: Entering Yearly Savings: <yearly_savings>
+2025-03-23 19:36:25 [INFO]: Entering Savings Increase Rate: <savings_increase_rate>
+2025-03-23 19:36:26 [INFO]: Clicking on Calculate Button
+2025-03-23 19:36:26 [INFO]: Verifying Retirement Amount Results Page
+2025-03-23 19:36:29 [INFO]: Checking Minimum Retirement Amount
