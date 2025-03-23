@@ -19,7 +19,7 @@ Feature: Retirement Planning Calculator
     And I click on the Edit Info button to go back to the Home Page
 
 
-  #used excel file from to get data 
-#  Ex#amples:
+  #used excel file to get data 
+#  Examples:
 #   | current_age | retirement_age | current_income | spouse_income | savings_balance | yearly_savings | savings_increase_rate |
 #   | 40          | 68             | 100000         | 75000         | 500000          | 10%            | .25%                  |
