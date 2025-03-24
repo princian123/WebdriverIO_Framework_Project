@@ -11,10 +11,10 @@ class HomePage {
     get currentRetirementSavingsBalance() { return $("#current-total-savings"); }
     get currentSaving() { return $("#current-annual-savings"); }
     get savingIncreaseRate() { return $("#savings-increase-rate"); }
-    get socialSecurityBenefitsTrue() { return $("#yes-social-benefits"); }
-    get socialSecurityBenefitsFalse() { return $("#no-social-benefits"); }
-    get maritalStatusSingle() { return $("#single"); }
-    get maritalStatusMarried() { return $("#married"); }
+    get socialSecurityBenefitsTrue() { return $("//label[@for='yes-social-benefits']"); }
+    get socialSecurityBenefitsFalse() { return $("//label[@for='no-social-benefits']"); }
+    get maritalStatusSingle() { return $("//label[normalize-space()='Single']"); }
+    get maritalStatusMarried() { return $("//label[@for='no-social-benefits']"); }
     get socialSecurityOverrideAmount() { return $("#social-security-override"); }
     get calculateButton() { return $("button=Calculate"); }
     get clearFormButton() { return $("button=Clear Form"); }
@@ -39,31 +39,51 @@ class HomePage {
         await this.enterValue(this.currentRetirementSavingsBalance, data.savings_balance);
         await this.enterValue(this.currentSaving, data.yearly_savings);
         await this.enterValue(this.savingIncreaseRate, data.savings_increase_rate);
-
-        // Handle marital status
-        if (data.marital_status === "single") {
-            await this.maritalStatusSingle.waitForDisplayed();
-            await this.maritalStatusSingle.click();
-        } else if (data.marital_status === "married") {
-            await this.maritalStatusMarried.waitForDisplayed();
-            await this.maritalStatusMarried.click();
-        }
-
-        // Handle Social Security Benefits
-        if (data.social_security_benefits === "yes") {
-            await this.socialSecurityBenefitsTrue.waitForDisplayed();
-            await this.socialSecurityBenefitsTrue.click();
-        } else if (data.social_security_benefits === "no") {
-            await this.socialSecurityBenefitsFalse.waitForDisplayed();
-            await this.socialSecurityBenefitsFalse.click();
-        }
-
-        // Enter Social Security Override Amount (if provided)
-        if (data.social_security_override !== undefined && data.social_security_override !== "") {
-            await this.enterValue(this.socialSecurityOverrideAmount, data.social_security_override);
-        }
+        await this.enterValue(this.socialSecurityOverrideAmount, data.social_security_override);
     }
 
+    // Maritial status radio button method called from step file       
+    async maritalStatus(marital_status) {
+        await browser.pause(500); // Small delay for stability
+        if (marital_status.toLowerCase() === "married") {
+            await this.maritalStatusMarried.waitForDisplayed();
+            await this.maritalStatusMarried.click();
+        } else if (marital_status.toLowerCase() === "single") {
+            await this.maritalStatusSingle.waitForDisplayed();
+            await this.maritalStatusSingle.click();
+        } else {
+            throw new Error(`Invalid option provided: ${radio_option}. Use "Married" or "Single".`);
+        }
+    }
+    // SocialSecurity status radio button method called from step file 
+    async selectSocialSecurityBenefits(option) {
+        await browser.pause(500); // Small delay for stability
+        if (option.toLowerCase() === "yes") {
+            await this.socialSecurityBenefitsTrue.waitForDisplayed();
+            await this.socialSecurityBenefitsTrue.waitForClickable();
+            await this.socialSecurityBenefitsTrue.click();
+        } else if (option.toLowerCase() === "no") {
+            await this.socialSecurityBenefitsFalse.waitForDisplayed();
+            await this.socialSecurityBenefitsFalse.waitForClickable();
+            await this.socialSecurityBenefitsFalse.click();
+        } else {
+            throw new Error(`Invalid option provided: ${option}. Use "Yes" or "No".`);
+        }
+    }
+    // verifying SocialSecurity status radio button selected or not methof and  called from step file 
+    async isSocialSecurityBenefitsSelected(selected_Option) {
+        if (selected_Option.toLowerCase() === "yes") {
+            return await this.socialSecurityBenefitsTrue.isSelected();
+        } else if (selected_Option.toLowerCase() === "no") {
+            return await this.socialSecurityBenefitsFalse.isSelected();
+        } else {
+            throw new Error(`Invalid option provided: ${selected_Option}. Use "Yes" or "No".`);
+        }
+
+    }
 }
+
+
+
 
 module.exports = new HomePage();

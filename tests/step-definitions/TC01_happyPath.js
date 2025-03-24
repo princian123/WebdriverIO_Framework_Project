@@ -44,8 +44,6 @@ When(/^I enter retirement age as "(.*)"$/, async (retirement_age) => {
     allureReporter.startStep(`Entering Retirement Age: ${retirement_age}`);
     logger.info(`Entering Retirement Age: ${retirement_age}`);
     await homePage.enterValue(homePage.retireAge, String(testData.retirement_age));
-    const screenshot = await browser.saveScreenshot(`./screenshots/retirmentAge.png`);  // example of taking scrren shot attchec in one step only
-    allureReporter.addAttachment("Savings Balance Screenshot", screenshot, "image/png");
     allureReporter.endStep();
 });
 

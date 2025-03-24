@@ -1,6 +1,8 @@
 const { $, browser } = require('@wdio/globals')
 //const Page = require('./homePage')
 const homePage = require('./homePage')
+const fs = require('fs');
+const allureReporter = require('@wdio/allure-reporter').default;
 
 class Common {
     //to manage cookies locator
@@ -19,10 +21,12 @@ class Common {
             await this.acceptCookiesButton.click();
         }
     }
-
-
-
-
+    async captureScreenshot(screenshotName) {
+        const screenshotPath = `./screenshots/${screenshotName}.png`;
+        await browser.saveScreenshot(screenshotPath);
+        const screenshotBuffer = fs.readFileSync(screenshotPath);
+        allureReporter.addAttachment(screenshotName, screenshotBuffer, "image/png");
+    }
 }
 
 
